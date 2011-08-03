@@ -1,0 +1,90 @@
+@font-face { font-family: Keffeesatz; src: url(../YanoneKaffeesatz-Light.otf) format("opentype") }
+@font-face { font-family: KeffeesatzBold; src: url(../YanoneKaffeesatz-Bold.otf) format("opentype") }
+
+#mymsgbox
+{	border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #7ac000; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
+	position:absolute; 
+	background-color:#ffffff;
+	display:none;
+	top:15%;
+	left:35%;
+	width:350px;
+	height:150px;
+	text-align: center   
+}
+
+#blankbg
+{
+	filter:alpha(opacity=60); 
+	-moz-opacity: 0.5; 
+	/*opacity: 0.5; */
+	position:absolute; 
+	background-color:#000000;
+	display:none;
+	
+	top:0;
+	left:0;
+	overflow:auto;
+	
+	width:100%;
+	
+	height:100%;
+	 
+}
+
+#msgboxHead
+{	border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #7ac000; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
+	color:#ffffff;
+	filter:alpha(opacity=70); 
+	-moz-opacity: 0.7; 
+	font-family:Keffeesatz, Arial;
+	font-weight:bold;
+	font-size: 20px;
+	background-color:#000000;
+	text-align:left;
+	height: 25px;
+	padding-left:5; padding-top:3;
+}
+#msgboxBody
+{	
+		
+	font-family: Keffeesatz, Arial;
+	background-color:#ffffff;
+	color:4b4b4b;
+	font-size: 24px
+}
+
+input[type="button"] { border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #7ac000; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.23, #619702),
+	    color-stop(0.62, #7ac000)
+	);
+	background: -moz-linear-gradient(
+	    center bottom,
+	    #619702 23%,
+	    #7ac000 62%
+	);
+	font-family: Keffeesatz, Arial;
+	font-size:18px;
+
+}
+
+input[type="button"]:hover { color: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.4); background-color: #ff5400;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.23, #c34000),
+	    color-stop(0.62, #ff5400)
+	);
+	background: -moz-linear-gradient(
+	    center bottom,
+	    #c34000 23%,
+	    #ff5400 62%
+	);
+}
+
+input[type="button"]:active { position: relative; top: 1px; }
